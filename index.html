@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MonitorIA — Protótipo corrigido (v2)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <div class="app">
+    <aside class="sidebar" aria-label="Menu principal">
+      <div class="brand"><img src="assets/logo-icon.png" alt="" width="44" height="44" /><span>Monitor<b>IA</b></span></div>
+      <p class="tagline">Sistema Inteligente de Apoio à Jornada Digital do Estudante em Ambientes Virtuais de Aprendizagem</p>
+      <nav>
+        <ul class="nav">
+          <li><button data-view="dashboard"><span class="ico" aria-hidden="true">▦</span>Dashboard</button></li>
+          <li><button data-view="alunos"><span class="ico" aria-hidden="true">👤</span>Alunos</button></li>
+          <li><button data-view="comunicacao"><span class="ico" aria-hidden="true">💬</span>Comunicação</button></li>
+          <li><button data-view="ia"><span class="ico" aria-hidden="true">🧠</span>Inteligência Artificial</button></li>
+          <li><button data-view="relatorios"><span class="ico" aria-hidden="true">📊</span>Relatórios</button></li>
+          <li><button data-view="ajuda"><span class="ico" aria-hidden="true">?</span>Ajuda</button></li>
+        </ul>
+      </nav>
+      <p class="version">Protótipo corrigido v2 · dados fictícios</p>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <div class="brand small"><img src="assets/logo-icon.png" alt="" width="32" height="32" /><span>Monitor<b>IA</b></span></div>
+        <div class="top-actions">
+          <button class="icon-btn" id="btnNotif" aria-label="Notificações">🔔<span class="badge" id="notifCount">2</span></button>
+          <div class="user">
+            <img src="assets/avatar-maria.png" alt="" width="44" height="44" />
+            <div><strong>Maria Monitor</strong><small>Monitoria EaD</small></div>
+            <button class="link" id="btnSair">Sair</button>
+          </div>
+        </div>
+      </header>
+      <main id="conteudo" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="dialog" aria-labelledby="dlgTitle">
+    <form method="dialog" class="dlg">
+      <h2 id="dlgTitle"></h2>
+      <div id="dlgBody"></div>
+      <div class="dlg-actions" id="dlgActions"></div>
+    </form>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

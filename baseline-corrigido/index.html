@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>MonitorIA — Baseline com correção indispensável (C-01)</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <main class="prototype-shell" aria-label="Protótipo navegável do sistema MonitorIA">
+
+    <section class="stage" id="stage">
+
+      <!-- Tela principal -->
+      <img
+        id="screenImage"
+        class="screen-image"
+        src="assets/dashboard.png"
+        alt="Tela Dashboard do MonitorIA"
+      />
+
+      <!-- MENU LATERAL CLICÁVEL -->
+
+      <button
+        class="hotspot nav-hotspot"
+        style="--top:25.5%; --left:1.1%; --width:14.8%; --height:6.7%;"
+        data-screen="dashboard"
+        aria-label="Abrir Dashboard">
+      </button>
+
+      <button
+        class="hotspot nav-hotspot"
+        style="--top:33.6%; --left:1.1%; --width:14.8%; --height:6.7%;"
+        data-screen="alunos"
+        aria-label="Abrir Alunos">
+      </button>
+
+      <button
+        class="hotspot nav-hotspot"
+        style="--top:39.6%; --left:1.1%; --width:14.8%; --height:6.7%;"
+        data-screen="comunicacao"
+        aria-label="Abrir Comunicação">
+      </button>
+
+      <button
+        class="hotspot nav-hotspot"
+        style="--top:47.6%; --left:1.1%; --width:14.8%; --height:6.7%;"
+        data-screen="ia"
+        aria-label="Abrir Inteligência Artificial">
+      </button>
+
+      <button
+        class="hotspot nav-hotspot"
+        style="--top:53.5%; --left:1.1%; --width:14.8%; --height:6.7%;"
+        data-screen="relatorios"
+        aria-label="Abrir Relatórios">
+      </button>
+
+      <button
+        class="hotspot nav-hotspot"
+        style="--top:60.5%; --left:1.1%; --width:14.8%; --height:6.7%;"
+        data-screen="ajuda"
+        aria-label="Abrir Ajuda">
+      </button>
+
+      <!-- BOTÕES INTERNOS – Dashboard (originais) -->
+      <button class="hotspot action-hotspot" data-only="dashboard" style="--top:51%; --left:75%; --width:20%; --height:4.5%;" data-action="Ação simulada realizada pela monitoria." aria-label="Aceitar recomendação"></button>
+      <button class="hotspot action-hotspot" data-only="dashboard" style="--top:57%; --left:75%; --width:20%; --height:4.5%;" data-action="Estratégia aberta para ajuste." aria-label="Ajustar estratégia"></button>
+      <button class="hotspot action-hotspot" data-only="dashboard" style="--top:63%; --left:75%; --width:20%; --height:4.5%;" data-action="Nova análise solicitada à IA." aria-label="Solicitar nova análise"></button>
+      <button class="hotspot action-hotspot" data-only="dashboard" style="--top:69%; --left:75%; --width:20%; --height:4.5%;" data-explain="dashboard" aria-label="Ver explicação completa"></button>
+
+      <!-- CORREÇÃO C-01 (E1-02/E1-16) – Alunos: um botão por ação, nas coordenadas da imagem -->
+      <button class="hotspot action-hotspot exact" data-only="alunos" style="--top:68.9%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Dados cadastrais de João Pereira marcados para atualização pela monitoria." aria-label="Atualizar dados cadastrais"></button>
+      <button class="hotspot action-hotspot exact" data-only="alunos" style="--top:72.6%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Canal de comunicação de João Pereira alterado pela monitoria." aria-label="Alterar canal de comunicação"></button>
+      <button class="hotspot action-hotspot exact" data-only="alunos" style="--top:76.4%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Nova análise da IA solicitada para João Pereira." aria-label="Solicitar nova análise da IA"></button>
+      <button class="hotspot action-hotspot exact" data-only="alunos" style="--top:80.0%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Recomendação da IA rejeitada pela monitoria." aria-label="Rejeitar recomendação"></button>
+      <button class="hotspot action-hotspot exact" data-only="alunos" style="--top:83.9%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Intervenção manual registrada pela monitoria." aria-label="Registrar intervenção manual"></button>
+
+      <!-- CORREÇÃO E1-16: explicação real -->
+      <div id="explain" class="explain" role="dialog" aria-label="Explicação completa da IA" hidden>
+        <h2>Explicação completa da IA – Maria Oliveira</h2>
+        <p><b>Recomendação:</b> contato via WhatsApp, que apresentou maior efetividade em situações semelhantes.</p>
+        <p><b>Fatores considerados:</b> tempo sem acessar o AVA; histórico de tentativas de contato; último canal utilizado; respostas anteriores; dados cadastrais disponíveis.</p>
+        <p><b>Confiança da IA na análise:</b> 87%.</p>
+        <p>A decisão final pertence ao monitor. A IA apenas recomenda ações de apoio.</p>
+        <button id="explainClose" type="button">Fechar</button>
+      </div>
+
+      <!-- Mensagem simulada -->
+      <div
+        id="toast"
+        class="toast"
+        role="status"
+        aria-live="polite">
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

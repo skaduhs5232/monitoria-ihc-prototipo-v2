@@ -1,0 +1,106 @@
+:root {
+  --azul-petroleo: #0D3B4C;
+  --laranja: #FF7A00;
+  --branco: #FFFFFF;
+  --sombra: 0 18px 50px rgba(13, 59, 76, .22);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at top left, rgba(13,59,76,.18), transparent 32%), #eef3f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.prototype-shell {
+  width: min(100vw, 1672px);
+  aspect-ratio: 1672 / 941;
+  background: var(--branco);
+  box-shadow: var(--sombra);
+  overflow: hidden;
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--branco);
+}
+
+.screen-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 1;
+  transition: opacity .26s ease, transform .26s ease;
+  user-select: none;
+  pointer-events: none;
+}
+
+.screen-image.is-changing {
+  opacity: .35;
+  transform: scale(.997);
+}
+
+.hotspot {
+  position: absolute;
+  top: calc(var(--top) - 10px);
+  left: var(--left);
+  width: var(--width);
+  height: calc(var(--height) + 20px);
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 18px;
+  z-index: 10;
+}
+
+.hotspot:focus-visible {
+  outline: 3px solid rgba(255, 122, 0, .85);
+  outline-offset: 3px;
+  background: rgba(255, 122, 0, .08);
+}
+
+.nav-hotspot:hover { background: transparent;; }
+.action-hotspot:hover { background: rgba(13, 59, 76, .06); }
+
+.toast {
+  position: absolute;
+  right: 3.2%;
+  bottom: 3.2%;
+  max-width: 360px;
+  padding: 14px 18px;
+  border-radius: 16px;
+  background: rgba(13, 59, 76, .96);
+  color: white;
+  font-size: clamp(12px, .85vw, 15px);
+  box-shadow: 0 12px 28px rgba(13, 59, 76, .28);
+  transform: translateY(18px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .24s ease, transform .24s ease;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  body { align-items: start; background: #eef3f7; }
+  .prototype-shell { width: 100vw; box-shadow: none; }
+}
+
+
+/* Correção C-01 */
+.hotspot.exact { top: var(--top); height: var(--height); border-radius: 6px; }
+.hotspot[hidden] { display: none; }
+.explain { position: absolute; right: 3%; top: 18%; width: 34%; background: #fff; color: #0D3B4C; border: 2px solid #0D3B4C; border-radius: 14px; padding: 16px 20px; z-index: 20; box-shadow: 0 12px 28px rgba(13,59,76,.28); font-size: clamp(12px, .9vw, 15px); }
+.explain h2 { margin: 0 0 8px; font-size: 1.15em; }
+.explain button { margin-top: 6px; padding: 8px 14px; border-radius: 8px; border: 0; background: #0D3B4C; color: #fff; cursor: pointer; }
