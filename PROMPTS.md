@@ -27,3 +27,6 @@ O protótipo v2 foi construído por um agente de IA (Grok Bot), que escreveu o c
 
 ## P5 – Verificação
 "Abra o protótipo num navegador headless, execute o fluxo das tarefas T1 a T6 (priorizar, compreender, decidir, tratar erro em João Pereira, acompanhar e encontrar privacidade) e confirme que não há erros no console e que cada botão dá o retorno esperado."
+
+## P6 – Correção indispensável no Baseline (versão usada no teste, pasta `baseline-corrigido/`)
+"Siga o enunciado: preserve o Baseline e corrija só o impedimento que inviabiliza a T4. Copie o invólucro original (index.html, script.js, style.css e as mesmas imagens) e altere apenas as áreas clicáveis. Em Alunos, crie uma área e uma mensagem própria para cada um dos cinco botões da Decisão da Monitoria, nas coordenadas da imagem (E1-02). No Dashboard, faça 'Ver explicação completa' abrir um painel com a recomendação, os fatores e a confiança mostrados na própria tela (E1-16). Mostre os botões de ação do Dashboard só no Dashboard. Não altere imagens, textos nem os demais comportamentos."
