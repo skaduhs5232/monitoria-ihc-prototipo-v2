@@ -1,0 +1,92 @@
+PROMPT SLOT DASHBOARD
+(TELA 01 - UMA INTERAÇÃO SUCEDIDA)
+
+USAR O FRAME MASTER FIXO DO MONITORIA.
+
+IMPORTANTE:
+Modificar SOMENTE a área central (slot de conteúdo).
+Manter completamente iguais:
+- nome do sistema;
+- barra lateral esquerda;
+- menu de navegação;
+- cabeçalho superior;
+- usuário logado: Maria Monitor;
+- função: Monitoria EaD.
+Não redesenhar o sistema.
+Apenas preencher o módulo selecionado.
+
+MÓDULO ATIVO:
+DASHBOARD
+
+OBJETIVO DO MÓDULO:
+Representar uma interação bem-sucedida entre Maria Monitor e a Inteligência Artificial.
+Mostrar como a IA:
+- identifica estudantes prioritários;
+- explica recomendações;
+- apoia decisões;
+- mantém controle humano.
+A IA nunca substitui a decisão da monitoria.
+Mostrar o momento:
+HAX Toolkit: "When Right"
+
+ÁREA SUPERIOR DO SLOT:
+Adicionar saudação: "Olá, Maria Monitor!"
+Texto secundário: "A IA encontrou situações que precisam da sua atenção hoje."
+Adicionar selo discreto: Monitoramento inteligente ativo
+
+CARDS DE INDICADORES:
+Criar 5 cards de indicadores:
+1. Total de alunos acompanhados – Valor exemplo: 1.030
+2. Primeiro acesso realizado – Valor exemplo: 726
+3. Aguardando primeiro acesso ao AVA – Valor exemplo: 304
+4. Taxa de ativação das turmas – Valor exemplo: 70%
+5. Prioridades identificadas pela IA – Valor exemplo: 45 casos
+
+ÁREA PRINCIPAL:
+Criar painel: "Painel Inteligente de Apoio à Decisão"
+Layout dividido:
+Lado esquerdo: Lista de estudantes priorizados pela IA.
+Exemplo:
+Maria Oliveira
+Curso: Assistente Administrativo
+Status: Aguardando primeiro acesso ao AVA
+Prioridade: ALTA
+Adicionar selo: "Análise gerada por Inteligência Artificial"
+Mostrar: Confiança da IA: 87%
+Usar barra de progresso simples.
+
+EXPLICAÇÃO DA IA:
+Criar card: "Por que a IA classificou este aluno como prioridade?"
+Mostrar fatores:
+✓ Tempo sem acessar o AVA
+✓ Histórico de tentativas de contato
+✓ Último canal utilizado
+✓ Respostas anteriores
+✓ Dados cadastrais disponíveis
+Mostrar recomendação:
+"A IA recomenda contato via WhatsApp, pois apresentou maior efetividade em situações semelhantes."
+
+CONTROLE DO MONITOR:
+Criar área: "Decisão da Monitoria"
+Botões:
+✓ Aceitar recomendação
+✎ Ajustar estratégia
+🔄 Solicitar nova análise
+ⓘ Ver explicação completa
+Adicionar mensagem:
+"A decisão final pertence ao monitor. A IA apenas recomenda ações de apoio."
+
+APLICAR PRINCÍPIOS HUMAN-AI INTERACTION (HAX):
+G1: Mostrar claramente o que a IA faz.
+G2: Mostrar confiança da recomendação.
+G11: Explicar por que a IA recomendou.
+G17: Permitir controle humano: aceitar, ajustar, rejeitar.
+
+Transmitir:
+confiança,
+clareza,
+transparência,
+colaboração humano + IA.
+
+Resultado esperado:
+parecer que Maria Monitor clicou no menu Dashboard e apenas o conteúdo central carregou.

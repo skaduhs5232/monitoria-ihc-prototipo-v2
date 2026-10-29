@@ -1,0 +1,196 @@
+PROMPT FRAME MASTER
+
+CRIAR TEMPLATE BASE FIXO DE INTERFACE WEB SaaS (UI/UX)
+
+Criar uma interface de alta fidelidade para o sistema:
+
+MonitorIA – Sistema Inteligente de Apoio à Jornada Digital do Estudante em Ambientes Virtuais de Aprendizagem.
+
+OBJETIVO DESTA TELA:
+Criar somente o TEMPLATE ESTRUTURAL BASE do sistema.
+
+Esta será a tela mãe utilizada para todos os módulos futuros.
+
+IMPORTANTE:
+A área central deve permanecer vazia, funcionando como área dinâmica onde futuramente serão carregados os módulos:
+Dashboard, Alunos, Comunicação, Inteligência Artificial, Relatórios e Ajuda.
+
+Não inserir gráficos, tabelas, cards ou informações dentro da área central neste momento.
+
+IDENTIDADE VISUAL FIXA DA MARCA
+
+Criar logo:
+
+MonitorIA
+
+Características:
+- manter texto “MonitorIA”;
+- destacar “IA” em laranja;
+- criar símbolo minimalista representando:
+conexão entre pessoas,
+dados,
+inteligência artificial.
+
+Estilo:
+EdTech premium,
+tecnológico,
+acadêmico,
+moderno,
+minimalista.
+
+A logo deve aparecer:
+1. no topo da barra lateral esquerda;
+2. no cabeçalho superior.
+
+Nunca modificar esta logo nas próximas telas.
+
+
+
+LAYOUT FIXO DO SISTEMA
+
+Criar estrutura composta por:
+
+1. MENU LATERAL ESQUERDO FIXO
+
+Cor:
+Azul petróleo #0D3B4C
+
+Estilo:
+SaaS profissional.
+
+Adicionar no topo:
+Logo MonitorIA
+Descrição pequena:
+
+"Sistema Inteligente de Apoio à Jornada Digital do Estudante em Ambientes Virtuais de Aprendizagem"
+
+Adicionar menu:
+
+Dashboard
+Alunos
+Comunicação
+Inteligência Artificial
+Relatórios
+Ajuda
+
+Cada item deve possuir:
+
+- ícone linear minimalista branco;
+- texto branco;
+- espaçamento confortável.
+
+O item selecionado deve usar:
+fundo laranja #FF7A00;
+cantos arredondados.
+
+Adicionar detalhe tecnológico discreto no rodapé:
+linhas e pontos representando conexões de IA.
+
+
+
+2. CABEÇALHO SUPERIOR FIXO
+
+Criar barra superior branca.
+
+À esquerda:
+
+- botão menu circular;
+- logo MonitorIA.
+
+À direita:
+
+ícones lineares:
+- notificações;
+- mensagens;
+- configurações.
+
+Perfil fixo:
+
+Foto realista profissional de uma mulher.
+
+Nome:
+Maria Monitor
+
+Função:
+Monitoria EaD
+
+IMPORTANTE:
+Maria Monitor é sempre a usuária logada.
+Nunca trocar nome ou perfil.
+
+
+
+3. ÁREA CENTRAL DINÂMICA
+
+Criar um grande container branco.
+
+Características:
+
+- ocupar todo espaço principal;
+- fundo branco predominante;
+- bordas arredondadas grandes;
+- sombra leve;
+- aparência limpa.
+
+Esta área deve ficar vazia.
+
+Não adicionar textos.
+Não adicionar dados.
+Não adicionar componentes.
+
+Será utilizada posteriormente para carregar módulos.
+
+Adicionar apenas detalhes visuais discretos:
+
+- pontos suaves;
+- linhas abstratas de conexão;
+- elementos tecnológicos quase transparentes.
+
+
+DESIGN SYSTEM
+
+Manter:
+
+Paleta:
+Azul petróleo:
+#0D3B4C
+Laranja:
+#FF7A0
+Branco:
+#FFFFF
+Cinza claro:
+#F5F7FA
+
+Componentes:
+
+- cantos arredondados;
+- sombras suaves;
+- ícones lineares;
+- aparência clean;
+- espaçamento amplo;
+- tipografia moderna sem serifa.
+
+Estilo inspirado em:
+
+- plataformas EdTech;
+- dashboards SaaS;
+- sistemas de Learning Analytics;
+- produtos profissionais de IA.
+
+
+REGRAS OBRIGATÓRIAS:
+
+Não alterar:
+
+- posição da logo;
+- menu lateral;
+- usuário Maria Monitor;
+- cores;
+- tipografia;
+- estilo dos ícones;
+- estrutura da página.
+
+Criar sensação de que:
+"Maria Monitor está navegando dentro do MonitorIA."
+
+Gerar imagem de interface web desktop 16:9 em alta fidelidade.

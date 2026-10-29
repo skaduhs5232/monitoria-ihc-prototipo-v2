@@ -1,0 +1,15 @@
+PROMPT SLOT DASHBOARD
+
+Usar a mesma tela base do MonitorIA e preencher somente a área central.
+
+Módulo: Dashboard.
+Finalidade: ajudar Maria Monitor a identificar os estudantes prioritários e decidir a intervenção. A IA nunca substitui a decisão da monitoria.
+
+Conteúdo:
+- indicadores (valores exemplo): 1.030 alunos acompanhados; 726 com primeiro acesso realizado; 304 aguardando primeiro acesso ao AVA; 70% de ativação das turmas; 45 casos priorizados pela IA;
+- estudantes priorizados pela IA (exemplo: Maria Oliveira – Assistente Administrativo – aguardando primeiro acesso ao AVA – prioridade ALTA);
+- deixar claro que a análise foi gerada pela IA e explicar por que o aluno foi priorizado (tempo sem acessar o AVA, histórico de tentativas de contato, último canal utilizado, respostas anteriores, dados cadastrais disponíveis);
+- recomendação da IA: contato via WhatsApp;
+- a monitora pode aceitar, ajustar ou rejeitar a recomendação.
+
+Gerar imagem de interface web desktop 16:9 em alta fidelidade.

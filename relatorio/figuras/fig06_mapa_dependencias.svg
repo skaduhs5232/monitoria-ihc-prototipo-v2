@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1080" font-family="DejaVu Sans, Arial">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#0D3B4C"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#C00000"/></marker></defs>
+<rect width="1640" height="1080" fill="#fff"/>
+<rect x="10" y="4" width="1620" height="142" rx="10" fill="#F2F6F8" stroke="#B8C7CE"/>
+<text x="24" y="28" font-size="17" font-weight="bold" fill="#0D3B4C">ESTRATÉGIA</text>
+<rect x="10" y="154" width="1620" height="382" rx="10" fill="#FFFFFF" stroke="#B8C7CE"/>
+<text x="24" y="178" font-size="17" font-weight="bold" fill="#0D3B4C">ESCOPO</text>
+<rect x="10" y="544" width="1620" height="142" rx="10" fill="#F2F6F8" stroke="#B8C7CE"/>
+<text x="24" y="568" font-size="17" font-weight="bold" fill="#0D3B4C">ESTRUTURA</text>
+<rect x="10" y="694" width="1620" height="142" rx="10" fill="#FFFFFF" stroke="#B8C7CE"/>
+<text x="24" y="718" font-size="17" font-weight="bold" fill="#0D3B4C">ESQUELETO</text>
+<rect x="10" y="844" width="1620" height="142" rx="10" fill="#F2F6F8" stroke="#B8C7CE"/>
+<text x="24" y="868" font-size="17" font-weight="bold" fill="#0D3B4C">SUPERFÍCIE</text>
+<path d="M302.5,75 L457.5,75" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M662.5,75 L837.5,75" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M1042.5,75 L1417.5,75" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M200,104.0 C200,142.5 450,142.5 450,181.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M560,104.0 C560,142.5 450,142.5 450,181.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M940,104.0 C940,202.5 700,202.5 700,301.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M940,104.0 C940,202.5 1220,202.5 1220,301.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M450,239.0 C450,270.0 190,270.0 190,301.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M450,239.0 C450,270.0 700,270.0 700,301.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M190,359.0 C190,397.5 330,397.5 330,436.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M700,359.0 C700,397.5 700,397.5 700,436.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M802.5,330 L857.5,330" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M1117.5,330 L1062.5,330" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M700,359.0 C700,397.5 1330,397.5 1330,436.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M227.5,465 L217.5,465" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M1220,359.0 C1220,472.5 1000,472.5 1000,586.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M960,359.0 C960,472.5 1000,472.5 1000,586.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M450,644.0 C450,690.0 450,690.0 450,736.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M1000,644.0 C1000,690.0 1000,690.0 1000,736.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M552.5,765 L897.5,765" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M1102.5,765 L1187.5,765" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M1000,794.0 C1000,840.0 450,840.0 450,886.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M450,794.0 C450,840.0 1060,840.0 1060,886.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M1520,104.0 C1520,495.0 1520,495.0 1520,886.0" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M1417.5,915 L1162.5,915" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M882.5,915 L957.5,915" fill="none" stroke="#0D3B4C" stroke-width="1.6"  marker-end="url(#a)"/>
+<path d="M1220,359.0 C1220,547.5 1000,547.5 1000,736.0" fill="none" stroke="#C00000" stroke-width="2.2" stroke-dasharray="7,5" marker-end="url(#r)"/>
+<path d="M450,239.0 C450,412.5 450,412.5 450,586.0" fill="none" stroke="#C00000" stroke-width="2.2" stroke-dasharray="7,5" marker-end="url(#r)"/>
+<path d="M330,494.0 C330,615.0 1000,615.0 1000,736.0" fill="none" stroke="#C00000" stroke-width="2.2" stroke-dasharray="7,5" marker-end="url(#r)"/>
+<rect x="97.5" y="46.0" width="205" height="58" rx="8" fill="#0D3B4C" stroke="#0D3B4C" stroke-width="2"/>
+<text x="200" y="69" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#ffffff">M01 Problema/finalidade</text>
+<text x="200" y="87" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#ffffff">(Cebola Semiótica)</text>
+<rect x="457.5" y="46.0" width="205" height="58" rx="8" fill="#0D3B4C" stroke="#0D3B4C" stroke-width="2"/>
+<text x="560" y="69" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#ffffff">M02 Proto-persona</text>
+<text x="560" y="87" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#ffffff">e papéis (Maria Monitor)</text>
+<rect x="837.5" y="46.0" width="205" height="58" rx="8" fill="#0D3B4C" stroke="#0D3B4C" stroke-width="2"/>
+<text x="940" y="69" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#ffffff">M03 IA centrada no humano</text>
+<text x="940" y="87" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#ffffff">IA recomenda, monitor decide</text>
+<rect x="1417.5" y="46.0" width="205" height="58" rx="8" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/>
+<text x="1520" y="69" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#222">M04 Metas de UX</text>
+<text x="1520" y="87" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#222">(qualidades a transmitir)</text>
+<rect x="347.5" y="181.0" width="205" height="58" rx="8" fill="#0D3B4C" stroke="#0D3B4C" stroke-width="2"/>
+<text x="450" y="204" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#ffffff">M05 Modelo de tarefas</text>
+<text x="450" y="222" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#ffffff">e requisitos funcionais</text>
+<rect x="87.5" y="301.0" width="205" height="58" rx="8" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/>
+<text x="190" y="324" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#222">M06 Cenários HAX</text>
+<text x="190" y="342" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#222">When Right/Wrong/Over Time</text>
+<rect x="597.5" y="301.0" width="205" height="58" rx="8" fill="#0D3B4C" stroke="#0D3B4C" stroke-width="2"/>
+<text x="700" y="324" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#ffffff">M07 HAX G1 + G11</text>
+<text x="700" y="342" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#ffffff">o que a IA faz e por quê</text>
+<rect x="857.5" y="301.0" width="205" height="58" rx="8" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/>
+<text x="960" y="324" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#222">M10 HAX G9 + G10</text>
+<text x="960" y="342" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#222">correção; escopo na dúvida</text>
+<rect x="1117.5" y="301.0" width="205" height="58" rx="8" fill="#0D3B4C" stroke="#0D3B4C" stroke-width="2"/>
+<text x="1220" y="324" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#ffffff">M09 HAX G17</text>
+<text x="1220" y="342" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#ffffff">controle humano</text>
+<rect x="12.5" y="436.0" width="205" height="58" rx="8" fill="#EEEEEE" stroke="#999" stroke-width="2"/>
+<text x="115" y="459" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#333">M13 HAX G13-15, G18</text>
+<text x="115" y="477" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#333">aprendizado e feedback</text>
+<rect x="227.5" y="436.0" width="205" height="58" rx="8" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/>
+<text x="330" y="459" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#222">M11 HAX G12 + G16</text>
+<text x="330" y="477" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#222">histórico; consequências</text>
+<rect x="597.5" y="436.0" width="205" height="58" rx="8" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/>
+<text x="700" y="459" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#222">M08 HAX G2</text>
+<text x="700" y="477" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#222">nível de confiança</text>
+<rect x="1227.5" y="436.0" width="205" height="58" rx="8" fill="#EEEEEE" stroke="#999" stroke-width="2"/>
+<text x="1330" y="459" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#333">M12 HAX G3 + G4</text>
+<text x="1330" y="477" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#333">momento e relevância</text>
+<rect x="347.5" y="586.0" width="205" height="58" rx="8" fill="#0D3B4C" stroke="#0D3B4C" stroke-width="2"/>
+<text x="450" y="609" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#ffffff">M14 Arquitetura</text>
+<text x="450" y="627" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#ffffff">da informação (6 módulos)</text>
+<rect x="897.5" y="586.0" width="205" height="58" rx="8" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/>
+<text x="1000" y="609" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#222">M15 Fluxo de decisão</text>
+<text x="1000" y="627" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#222">dados→IA→monitor→ação</text>
+<rect x="347.5" y="736.0" width="205" height="58" rx="8" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/>
+<text x="450" y="759" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#222">M16 Frame Master</text>
+<text x="450" y="777" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#222">+ slot (consistência)</text>
+<rect x="897.5" y="736.0" width="205" height="58" rx="8" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/>
+<text x="1000" y="759" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#222">M17 Wireframes</text>
+<text x="1000" y="777" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#222">dos slots</text>
+<rect x="1187.5" y="736.0" width="205" height="58" rx="8" fill="#EEEEEE" stroke="#999" stroke-width="2"/>
+<text x="1290" y="759" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#333">M18 Hierarquia</text>
+<text x="1290" y="777" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#333">de botões</text>
+<rect x="347.5" y="886.0" width="205" height="58" rx="8" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/>
+<text x="450" y="909" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#222">M22 Microtextos</text>
+<text x="450" y="927" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#222">transparência e controle</text>
+<rect x="677.5" y="886.0" width="205" height="58" rx="8" fill="#EEEEEE" stroke="#999" stroke-width="2"/>
+<text x="780" y="909" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#333">M20 Marca</text>
+<text x="780" y="927" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#333">logo MonitorIA</text>
+<rect x="957.5" y="886.0" width="205" height="58" rx="8" fill="#EEEEEE" stroke="#999" stroke-width="2"/>
+<text x="1060" y="909" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#333">M19 Design system</text>
+<text x="1060" y="927" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#333">paleta, tipografia, ícones</text>
+<rect x="1417.5" y="886.0" width="205" height="58" rx="8" fill="#EEEEEE" stroke="#999" stroke-width="2"/>
+<text x="1520" y="909" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#333">M21 Estilo visual</text>
+<text x="1520" y="927" font-size="12.5" font-weight="normal" text-anchor="middle" fill="#333">EdTech/SaaS, não futurista</text>
+<rect x="20" y="1012" width="26" height="18" fill="#0D3B4C"/><text x="54" y="1026" font-size="15">Essencial</text>
+<rect x="160" y="1012" width="26" height="18" fill="#FFE3C7" stroke="#FF7A00" stroke-width="2"/><text x="194" y="1026" font-size="15">Importante</text>
+<rect x="310" y="1012" width="26" height="18" fill="#EEE" stroke="#999"/><text x="344" y="1026" font-size="15">Complementar</text>
+<line x1="480" y1="1021" x2="530" y2="1021" stroke="#0D3B4C" stroke-width="1.8" marker-end="url(#a)"/><text x="540" y="1026" font-size="15">A → B: B depende de A</text>
+<line x1="760" y1="1021" x2="810" y2="1021" stroke="#C00000" stroke-width="2.2" stroke-dasharray="7,5" marker-end="url(#r)"/><text x="820" y="1026" font-size="15" fill="#C00000">dependência rompida no Baseline:</text>
+<text x="820" y="1046" font-size="13.5" fill="#C00000">M09⇢M17 Rejeitar ausente nos botões (C-04) · M05⇢M14 Lista de Alunos ausente (C-05)</text>
+<text x="820" y="1064" font-size="13.5" fill="#C00000">M11⇢M17 histórico sem modelo de dados comum entre telas (C-06)</text>
+</svg>

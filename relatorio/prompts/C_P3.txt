@@ -1,0 +1,14 @@
+PROMPT SLOT RELATORIOS
+
+Usar a mesma tela base do MonitorIA e preencher somente a área central.
+
+Módulo: Relatórios.
+Finalidade: permitir que Maria Monitor acompanhe os resultados das intervenções. As recomendações da IA continuam sendo validadas pela monitoria.
+
+Conteúdo (valores exemplo):
+- 1.030 alunos acompanhados; +24% de evolução do primeiro acesso ao AVA; 70% de ativação; 186 casos solucionados pela monitoria; -38% de alunos prioritários;
+- evolução dos acessos ao AVA;
+- efetividade dos canais: WhatsApp, e-mail e contato manual;
+- deixar claro o que foi gerado pela IA.
+
+Gerar imagem de interface web desktop 16:9 em alta fidelidade.

@@ -1,0 +1,88 @@
+PROMPT SLOT RELATORIOS
+(TELA 03 - NAVEGAÇÃO)
+
+USAR O FRAME MASTER FIXO DO MONITORIA.
+
+IMPORTANTE:
+Modificar SOMENTE a área central (slot de conteúdo).
+Manter completamente iguais:
+- nome do sistema;
+- barra lateral esquerda;
+- menu de navegação;
+- cabeçalho superior;
+- usuário logado: Maria Monitor;
+- função: Monitoria EaD.
+Não redesenhar o sistema.
+Apenas preencher o módulo selecionado.
+A sensação deve ser:
+"Maria Monitor clicou no menu Relatórios e abriu o módulo de Relatórios Inteligentes dentro do mesmo sistema MonitorIA."
+
+MÓDULO ATIVO:
+RELATÓRIOS
+Tela: Relatórios Inteligentes – Evolução da Jornada Digital
+
+OBJETIVO DA TELA:
+Representar a navegação de Maria Monitor pelo módulo de Relatórios Inteligentes.
+Mostrar como os dados gerados pelas interações são transformados em:
+- indicadores;
+- análises;
+- melhoria contínua;
+- recomendações mais inteligentes da IA.
+Esta tela representa o momento HAX Toolkit: "Over Time"
+A IA aprende ao longo do tempo, mas mantém:
+- transparência;
+- controle humano;
+- validação pela monitoria.
+
+ÁREA SUPERIOR DO SLOT:
+Título: Relatórios Inteligentes
+Subtítulo: "Transforme dados de acompanhamento em decisões mais inteligentes."
+
+NAVEGAÇÃO INTERNA DO MÓDULO:
+Criar abas horizontais:
+- Visão Geral
+- Engajamento dos Alunos
+- Efetividade da Comunicação
+- Aprendizado da IA
+- Histórico de Recomendações
+Aba ativa: Visão Geral (em destaque)
+
+CARDS ANALÍTICOS:
+Criar 5 cards:
+1. Total de alunos acompanhados – Valor exemplo: 1.030
+2. Evolução do primeiro acesso ao AVA – Valor exemplo: +24%
+3. Percentual de ativação – Valor exemplo: 70%
+4. Casos solucionados pela monitoria – Valor exemplo: 186
+5. Redução de alunos prioritários – Valor exemplo: -38%
+
+ÁREA DE GRÁFICOS:
+Criar dois cards grandes lado a lado.
+Gráfico 1: "Evolução dos acessos ao AVA"
+Mostrar linha crescente indicando aumento dos acessos após as ações realizadas pela monitoria.
+Adicionar pequena legenda: Antes da intervenção / Após recomendação da IA / Após validação da monitoria
+Gráfico 2: "Efetividade dos canais"
+Comparar: WhatsApp / E-mail / Contato manual
+Mostrar barras simples com melhor desempenho para WhatsApp.
+
+ÁREA: HISTÓRICO DE RECOMENDAÇÕES DA IA
+Criar tabela com colunas:
+Data / Recomendação realizada / Resultado obtido / Avaliação do monitor
+Exemplos de linhas:
+18/06/2026 / Contato via WhatsApp / Aluno realizou primeiro acesso / Útil
+17/06/2026 / Reenvio por e-mail / Sem retorno / Precisa melhorar
+16/06/2026 / Contato manual / Dados cadastrais atualizados / Útil
+
+APLICAR MICROSOFT HUMAN-AI INTERACTION GUIDELINES:
+G12 – Remember recent interactions. Representar: a IA mantém histórico das interações e decisões anteriores.
+G16 – Convey the consequences of user actions. Representar: mostrar impacto das ações tomadas pela monitoria.
+
+Transmitir:
+segurança,
+transparência,
+aprendizado contínuo,
+confiança,
+controle humano,
+colaboração entre monitor e Inteligência Artificial.
+
+Resultado esperado:
+Parecer que Maria Monitor navegou até o menu Relatórios e visualizou a evolução dos dados dentro do mesmo sistema MonitorIA.

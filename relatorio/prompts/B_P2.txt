@@ -1,0 +1,116 @@
+PROMPT SLOT ALUNOS
+(TELA 02 - TRATAMENTO DE ERRO)
+
+USAR O FRAME MASTER FIXO DO MONITORIA.
+
+IMPORTANTE:
+Modificar SOMENTE a área central (slot de conteúdo).
+Manter completamente iguais:
+- nome do sistema;
+- barra lateral esquerda;
+- menu de navegação;
+- cabeçalho superior;
+- usuário logado: Maria Monitor;
+- função: Monitoria EaD.
+Não redesenhar o sistema.
+Apenas preencher o módulo selecionado.
+A sensação deve ser:
+"Maria Monitor clicou no menu Alunos e abriu o perfil de um estudante acompanhado."
+
+MÓDULO ATIVO:
+ALUNOS
+Tela: Perfil do Aluno – Análise Inteligente e Tratamento de Inconsistências
+
+OBJETIVO DA TELA:
+Representar uma situação onde a Inteligência Artificial encontrou limitações nos dados disponíveis.
+Mostrar o momento:
+HAX Toolkit: "When Wrong"
+A IA:
+- identifica problema;
+- explica a limitação;
+- evita uma recomendação insegura;
+- permite correção humana.
+A IA não executa nenhuma ação automaticamente.
+
+LAYOUT DO SLOT CENTRAL:
+Criar organização em três áreas:
+1. Perfil do estudante
+2. Alerta inteligente da IA
+3. Controle do monitor
+
+ÁREA SUPERIOR:
+Título: Perfil do Aluno
+Subtítulo: "Análise inteligente e acompanhamento do primeiro acesso"
+Adicionar etiqueta: IA analisando dados do estudante
+
+CARD PERFIL DO ESTUDANTE:
+Aluno: João Pereira
+Curso: Técnico em Logística
+Status AVA: Aguardando primeiro acesso
+Prioridade: ALTA (em destaque)
+Mostrar indicadores:
+Data de matrícula: 10/06/2026
+Última tentativa de contato: 18/06/2026
+Canal utilizado: E-mail institucional
+Situação do e-mail: Não ativado
+Telefone: Necessita confirmação
+
+CARD ALERTA INTELIGENTE DA IA:
+Criar destaque visual: ⚠ Atenção
+Título: "A IA encontrou uma inconsistência"
+Mensagem principal: "Não foi possível confirmar com segurança o melhor canal de comunicação."
+Explicação: "Identifiquei possíveis problemas nos dados antes de recomendar uma nova ação."
+Mostrar fatores encontrados:
+⚠ E-mail institucional ainda não ativado
+⚠ Última mensagem enviada não foi entregue
+⚠ Telefone precisa de confirmação
+Adicionar: Nível de confiança da IA: 42%
+Criar barra de confiança baixa.
+Mensagem: "Confiança reduzida devido à ausência de dados suficientes."
+
+CARD EXPLICAÇÃO DA IA:
+Título: "Por que a IA sinalizou este problema?"
+Mostrar: A IA analisou:
+✓ Histórico de comunicação
+✓ Dados cadastrais
+✓ Tentativas anteriores
+✓ Status de acesso ao AVA
+
+RECOMENDAÇÃO DA IA:
+Criar card: "Recomendação segura"
+Texto: "Atualize os dados de contato ou escolha uma nova estratégia antes de enviar uma comunicação automática."
+Mostrar que a IA está aguardando validação humana.
+
+CONTROLE DO MONITOR:
+Título: Decisão da Monitoria
+Criar botões:
+✓ Atualizar dados cadastrais
+✎ Alterar canal de comunicação
+🔄 Solicitar nova análise da IA
+✕ Rejeitar recomendação
+👤 Registrar intervenção manual
+Adicionar mensagem:
+"O monitor mantém o controle da decisão. Nenhuma ação será executada automaticamente."
+
+HISTÓRICO DA ANÁLISE:
+Criar pequena linha do tempo:
+1. IA identificou risco
+2. Tentativa de contato realizada
+3. Problema encontrado
+4. Aguardando decisão do monitor
+
+APLICAR MICROSOFT HUMAN-AI INTERACTION GUIDELINES:
+G9 – Support efficient correction. Representar: correção rápida de informações incorretas.
+G10 – Scope services when in doubt. Representar: IA informa quando não possui dados suficientes.
+G11 – Make clear why the system did what it did. Representar: explicação transparente do alerta.
+G17 – Provide global controls. Representar: usuário pode corrigir, ajustar, rejeitar ou intervir.
+
+Transmitir:
+segurança,
+confiança,
+recuperação de erro,
+controle humano,
+colaboração humano + IA.
+
+Resultado esperado:
+Parecer que Maria Monitor saiu do Dashboard, clicou em Alunos e abriu este perfil dentro do mesmo sistema MonitorIA.

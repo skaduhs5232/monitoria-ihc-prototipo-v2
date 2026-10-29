@@ -1,0 +1,241 @@
+PROMPT SLOT RELATORIOS
+(TELA 03 - NAVEGAÇÃO)
+
+USAR O FRAME MASTER FIXO DO MONITORIA.
+
+IMPORTANTE:
+Modificar SOMENTE a área central branca (slot de conteúdo).
+
+Manter completamente iguais:
+- logo MonitorIA;
+- símbolo da marca;
+- barra lateral esquerda;
+- menu de navegação;
+- cabeçalho superior;
+- foto da usuária;
+- usuário logado: Maria Monitor;
+- função: Monitoria EaD;
+- cores institucionais;
+- tipografia;
+- botões;
+- estilo dos ícones;
+- espaçamentos.
+
+Não redesenhar o sistema.
+Apenas preencher o módulo selecionado.
+
+A sensação deve ser:
+"Maria Monitor clicou no menu Relatórios e abriu o módulo de Relatórios Inteligentes dentro do mesmo sistema MonitorIA."
+
+
+MÓDULO ATIVO:
+RELATÓRIOS
+
+Tela:
+Relatórios Inteligentes – Evolução da Jornada Digital
+
+OBJETIVO DA TELA:
+
+Representar a navegação de Maria Monitor pelo módulo de Relatórios Inteligentes.
+
+Mostrar como os dados gerados pelas interações são transformados em:
+- indicadores;
+- análises;
+- melhoria contínua;
+- recomendações mais inteligentes da IA.
+
+Esta tela representa o momento HAX Toolkit:
+"Over Time"
+
+A IA aprende ao longo do tempo, mas mantém:
+- transparência;
+- controle humano;
+- validação pela monitoria.
+
+ÁREA SUPERIOR DO SLOT:
+
+Título:
+Relatórios Inteligentes
+
+Subtítulo:
+"Transforme dados de acompanhamento em decisões mais inteligentes."
+
+Adicionar selo discreto:
+Aprendizado da IA em acompanhamento
+
+
+NAVEGAÇÃO INTERNA DO MÓDULO:
+
+Criar abas horizontais:
+
+- Visão Geral
+- Engajamento dos Alunos
+- Efetividade da Comunicação
+- Aprendizado da IA
+- Histórico de Recomendações
+
+Aba ativa:
+Visão Geral
+
+Usar destaque em laranja #FF7A00.
+
+
+
+CARDS ANALÍTICOS:
+Criar 5 cards modernos:
+1.Total de alunos acompanhados
+Valor exemplo:
+1.030
+2.Evolução do primeiro acesso ao AVA
+Valor exemplo:
++24%
+3.Percentual de ativação
+Valor exemplo:
+70%
+4. Casos solucionados pela monitoria
+Valor exemplo:
+186
+5. Redução de alunos prioritários
+Valor exemplo:
+-38%
+
+Características:
+- cards brancos;
+- bordas arredondadas;
+- sombras leves;
+- ícones lineares;
+- detalhes em laranja;
+- visual SaaS educacional premium.
+
+
+ÁREA DE GRÁFICOS:
+
+Criar dois cards grandes lado a lado.
+
+Gráfico 1:
+"Evolução dos acessos ao AVA"
+
+Mostrar linha crescente indicando aumento dos acessos após as ações realizadas pela monitoria.
+
+Adicionar pequena legenda:
+Antes da intervenção
+Após recomendação da IA
+Após validação da monitoria
+
+Gráfico 2:
+"Efetividade dos canais"
+
+Comparar:
+- WhatsApp
+- E-mail
+- Contato manual
+Mostrar barras simples com melhor desempenho para WhatsApp.
+
+
+ÁREA:
+APRENDIZADO DA INTELIGÊNCIA ARTIFICIAL
+
+Criar card explicativo:
+Título: Aprendizado da Inteligência Artificial
+
+Texto: "A IA identificou padrões a partir dos resultados anteriores."
+
+Mostrar insights:
+✓ WhatsApp apresentou maior taxa de retorno nesta turma
+✓ Contatos realizados nos primeiros dias aumentaram a ativação
+✓ Recomendações futuras foram ajustadas pelo histórico
+
+Adicionar aviso de transparência:
+"As recomendações são atualizadas com base nos resultados, mas continuam sendo validadas pelo monitor."
+Usar ícone linear de IA + dados.
+
+ÁREA:
+HISTÓRICO DE RECOMENDAÇÕES DA IA
+
+Criar tabela moderna com colunas:
+
+Data
+Recomendação realizada
+Resultado obtido
+Avaliação do monitor
+
+Exemplos de linhas:
+
+18/06/2026
+Contato via WhatsApp
+Aluno realizou primeiro acesso
+Útil
+
+17/06/2026
+Reenvio por e-mail
+Sem retorno
+Precisa melhorar
+
+16/06/2026
+Contato manual
+Dados cadastrais atualizados
+Útil
+
+FEEDBACK GRANULAR DO MONITOR:
+Criar componente pequeno: "Esta análise representa corretamente sua experiência?"
+Botões:
+👍 Confirmar aprendizado
+✎ Ajustar interpretação
+Botão principal:
+laranja #FF7A00
+
+Botão secundário:
+contorno azul petróleo #0D3B4C
+
+NOTIFICAÇÃO DE MUDANÇA:
+Adicionar pequeno alerta informativo:
+"A IA atualizou a efetividade dos canais com base nas últimas interações registradas."
+
+Mostrar como aviso discreto, não alarmista.
+
+
+APLICAR MICROSOFT HUMAN-AI INTERACTION GUIDELINES:
+
+G12 – Remember recent interactions
+Representar:
+A IA mantém histórico das interações e decisões anteriores.
+G13 – Learn from user behavior
+Representar:
+A IA aprende quais estratégias apresentam melhores resultados.
+G14 – Update and adapt cautiously
+Representar:Mostrar claramente quando recomendações foram modificadas pelo aprendizado.
+G15 – Encourage granular feedback
+Representar:Permitir que o monitor avalie os resultados da IA.
+G16 – Convey the consequences of user actions
+Representar:
+Mostrar impacto das ações tomadas pela monitoria.
+G18 – Notify users about changes
+Representar:Informar mudanças relevantes nos indicadores e padrões da IA.
+
+ESTILO VISUAL:
+Seguir Design System MonitorIA:
+- SaaS educacional premium;
+- acadêmico;
+- profissional;
+- limpo;
+- confiável.
+
+Usar:
+Azul petróleo #0D3B4C
+Laranja #FF7A00
+Branco predominante
+Cinza claro para divisões suaves
+
+Evitar aparência futurista exagerada.
+
+Transmitir:
+segurança,
+transparência,
+aprendizado contínuo,
+confiança,
+controle humano,
+colaboração entre monitor e Inteligência Artificial.
+
+Resultado esperado:
+
+Parecer que Maria Monitor navegou até o menu Relatórios e visualizou a evolução dos dados dentro do mesmo sistema MonitorIA.

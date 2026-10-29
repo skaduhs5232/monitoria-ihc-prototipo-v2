@@ -1,0 +1,15 @@
+PROMPT SLOT ALUNOS
+
+Usar a mesma tela base do MonitorIA e preencher somente a área central.
+
+Módulo: Alunos – perfil de um estudante acompanhado.
+Finalidade: permitir que Maria Monitor analise o caso e decida o que fazer. A IA não executa nenhuma ação automaticamente.
+
+Conteúdo (valores exemplo):
+- João Pereira – Técnico em Logística – aguardando primeiro acesso – prioridade ALTA;
+- data de matrícula 10/06/2026; última tentativa de contato 18/06/2026 por e-mail institucional;
+- e-mail institucional não ativado; última mensagem enviada não foi entregue; telefone necessita confirmação;
+- deixar claro o que foi identificado pela IA e por quê (histórico de comunicação, dados cadastrais, tentativas anteriores, status de acesso ao AVA);
+- a monitora pode corrigir, ajustar, rejeitar ou intervir manualmente.
+
+Gerar imagem de interface web desktop 16:9 em alta fidelidade.

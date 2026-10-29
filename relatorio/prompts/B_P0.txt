@@ -1,0 +1,67 @@
+PROMPT FRAME MASTER
+
+CRIAR TEMPLATE BASE FIXO DE INTERFACE WEB SaaS (UI/UX)
+
+Criar uma interface de alta fidelidade para o sistema:
+MonitorIA – Sistema Inteligente de Apoio à Jornada Digital do Estudante em Ambientes Virtuais de Aprendizagem.
+
+OBJETIVO DESTA TELA:
+Criar somente o TEMPLATE ESTRUTURAL BASE do sistema.
+Esta será a tela mãe utilizada para todos os módulos futuros.
+
+IMPORTANTE:
+A área central deve permanecer vazia, funcionando como área dinâmica onde futuramente serão carregados os módulos:
+Dashboard, Alunos, Comunicação, Inteligência Artificial, Relatórios e Ajuda.
+Não inserir gráficos, tabelas, cards ou informações dentro da área central neste momento.
+
+LAYOUT FIXO DO SISTEMA
+Criar estrutura composta por:
+
+1. MENU LATERAL ESQUERDO FIXO
+Adicionar no topo:
+Nome do sistema: MonitorIA
+Descrição pequena:
+"Sistema Inteligente de Apoio à Jornada Digital do Estudante em Ambientes Virtuais de Aprendizagem"
+Adicionar menu:
+Dashboard
+Alunos
+Comunicação
+Inteligência Artificial
+Relatórios
+Ajuda
+Cada item deve possuir ícone e texto.
+O item selecionado deve ficar destacado.
+
+2. CABEÇALHO SUPERIOR FIXO
+À esquerda:
+- botão menu;
+- nome MonitorIA.
+À direita, ícones:
+- notificações;
+- mensagens;
+- configurações.
+Perfil fixo:
+Nome: Maria Monitor
+Função: Monitoria EaD
+IMPORTANTE:
+Maria Monitor é sempre a usuária logada.
+Nunca trocar nome ou perfil.
+
+3. ÁREA CENTRAL DINÂMICA
+Criar um grande container que ocupe todo o espaço principal.
+Esta área deve ficar vazia.
+Não adicionar textos.
+Não adicionar dados.
+Não adicionar componentes.
+Será utilizada posteriormente para carregar módulos.
+
+REGRAS OBRIGATÓRIAS:
+Não alterar nas próximas telas:
+- posição do nome do sistema;
+- menu lateral;
+- usuário Maria Monitor;
+- estrutura da página.
+Criar sensação de que:
+"Maria Monitor está navegando dentro do MonitorIA."
+
+Gerar imagem de interface web desktop 16:9 em alta fidelidade.

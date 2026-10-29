@@ -1,0 +1,14 @@
+PROMPT FRAME MASTER
+
+Criar uma interface para o sistema:
+MonitorIA – Sistema Inteligente de Apoio à Jornada Digital do Estudante em Ambientes Virtuais de Aprendizagem.
+
+Problema, público e finalidade:
+O MonitorIA apoia a monitoria EaD a acompanhar alunos que ainda aguardam o primeiro acesso ao AVA. A usuária é Maria Monitor (Monitoria EaD). A IA identifica estudantes prioritários e recomenda ações; a decisão é sempre da monitoria.
+
+Criar somente a tela base do sistema, que será usada para todos os módulos:
+- menu com os módulos Dashboard, Alunos, Comunicação, Inteligência Artificial, Relatórios e Ajuda;
+- usuária logada: Maria Monitor – Monitoria EaD;
+- área central vazia, onde os módulos serão carregados depois.
+
+Gerar imagem de interface web desktop 16:9 em alta fidelidade.
