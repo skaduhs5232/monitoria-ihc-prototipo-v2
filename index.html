@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MonitorIA — Protótipo corrigido (v2)</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MonitorIA – versões do protótipo (NP2 de IHC)</title>
+<style>
+:root{--azul:#0D3B4C;--laranja:#FF7A00;--fundo:#F5F7FA;--texto:#1f2a30;--muted:#5b6b73}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--fundo);color:var(--texto)}
+header{background:var(--azul);color:#fff;padding:32px 24px}header .wrap{max-width:960px;margin:0 auto}
+h1{margin:0 0 6px;font-size:28px}h1 b{color:var(--laranja)}header p{margin:0;opacity:.85}
+main{max-width:960px;margin:28px auto;padding:0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+a.card{display:flex;flex-direction:column;gap:10px;background:#fff;border-radius:14px;padding:22px;text-decoration:none;color:inherit;box-shadow:0 1px 4px rgba(0,0,0,.08);border:2px solid transparent}
+a.card:hover,a.card:focus-visible{border-color:var(--laranja);outline:none}
+.ico{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:#e6eef1;color:var(--azul)}
+.card.main .ico{background:var(--laranja);color:#fff}
+.card h2{margin:0;font-size:19px}.card p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.45}
+.tag{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.go{margin-top:auto;display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--azul)}
+footer{max-width:960px;margin:0 auto 32px;padding:0 24px;color:var(--muted);font-size:13px}
+</style>
 </head>
 <body>
-  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
-  <div class="app">
-    <aside class="sidebar" aria-label="Menu principal">
-      <div class="brand"><img src="assets/logo-icon.png" alt="" width="44" height="44" /><span>Monitor<b>IA</b></span></div>
-      <p class="tagline">Sistema Inteligente de Apoio à Jornada Digital do Estudante em Ambientes Virtuais de Aprendizagem</p>
-      <nav>
-        <ul class="nav">
-          <li><button data-view="dashboard"><span class="ico" aria-hidden="true">▦</span>Dashboard</button></li>
-          <li><button data-view="alunos"><span class="ico" aria-hidden="true">👤</span>Alunos</button></li>
-          <li><button data-view="comunicacao"><span class="ico" aria-hidden="true">💬</span>Comunicação</button></li>
-          <li><button data-view="ia"><span class="ico" aria-hidden="true">🧠</span>Inteligência Artificial</button></li>
-          <li><button data-view="relatorios"><span class="ico" aria-hidden="true">📊</span>Relatórios</button></li>
-          <li><button data-view="ajuda"><span class="ico" aria-hidden="true">?</span>Ajuda</button></li>
-        </ul>
-      </nav>
-      <p class="version">Protótipo corrigido v2 · dados fictícios</p>
-    </aside>
-
-    <div class="main">
-      <header class="topbar">
-        <div class="brand small"><img src="assets/logo-icon.png" alt="" width="32" height="32" /><span>Monitor<b>IA</b></span></div>
-        <div class="top-actions">
-          <button class="icon-btn" id="btnNotif" aria-label="Notificações">🔔<span class="badge" id="notifCount">2</span></button>
-          <div class="user">
-            <img src="assets/avatar-maria.png" alt="" width="44" height="44" />
-            <div><strong>Maria Monitor</strong><small>Monitoria EaD</small></div>
-            <button class="link" id="btnSair">Sair</button>
-          </div>
-        </div>
-      </header>
-      <main id="conteudo" tabindex="-1"></main>
-    </div>
-  </div>
-
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <dialog id="dialog" aria-labelledby="dlgTitle">
-    <form method="dialog" class="dlg">
-      <h2 id="dlgTitle"></h2>
-      <div id="dlgBody"></div>
-      <div class="dlg-actions" id="dlgActions"></div>
-    </form>
-  </dialog>
-
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+<header><div class="wrap">
+<h1>Monitor<b>IA</b> – versões do protótipo</h1>
+<p>NP2 de Aplicações em IHC (PPGIA/UNIFOR, 2026.2). Escolha a versão que deseja abrir.</p>
+</div></header>
+<main>
+<div class="grid">
+<a class="card" href="https://anapsaraujo100.github.io/monitoria-ihc-prototipo/">
+<span class="ico"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="7" height="9" x="3" y="3" rx="1" /> <rect width="7" height="5" x="14" y="3" rx="1" /> <rect width="7" height="9" x="14" y="12" rx="1" /> <rect width="7" height="5" x="3" y="16" rx="1" /></svg></span>
+<span class="tag">Referência da comparação</span>
+<h2>Baseline original</h2>
+<p>Protótipo publicado pela equipe original (telas geradas por IA, em imagem). Não foi alterado.</p>
+<span class="go">Abrir Baseline <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M15 3h6v6" /> <path d="M10 14 21 3" /> <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></svg></span>
+</a>
+<a class="card main" href="melhorado/">
+<span class="ico"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5" /></svg></span>
+<span class="tag">Melhoria documentada separadamente</span>
+<h2>Protótipo melhorado (v2)</h2>
+<p>Telas refeitas em HTML, CSS e JavaScript, com as correções da inspeção heurística. Opcional, fora da comparação.</p>
+<span class="go">Abrir v2 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /></svg></span>
+</a>
+<a class="card" href="baseline-corrigido/">
+<span class="ico"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /> <path d="M3 3v5h5" /> <path d="M12 7v5l4 2" /></svg></span>
+<span class="tag">Registro histórico</span>
+<h2>Baseline com correção C-01</h2>
+<p>Telas originais com uma única correção nos botões da tela Alunos. Preparada para um teste com usuários que deixou de ser exigido.</p>
+<span class="go">Abrir registro <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14" /> <path d="m12 5 7 7-7 7" /></svg></span>
+</a>
+</div>
+</main>
+<footer>Dados fictícios. Ícones: Lucide (licença ISC). Código: <a href="https://github.com/skaduhs5232/monitoria-ihc-prototipo-v2">github.com/skaduhs5232/monitoria-ihc-prototipo-v2</a>.</footer>
 </body>
 </html>

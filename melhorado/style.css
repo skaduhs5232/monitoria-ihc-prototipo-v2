@@ -16,7 +16,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
 .icon-btn{position:relative;background:none;border:0;font-size:20px;cursor:pointer}.badge{position:absolute;top:-4px;right:-8px;background:var(--red);color:#fff;font-size:11px;border-radius:9px;padding:1px 5px}
 main{padding:20px 26px;outline:none}
 .page-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px}.page-head h1{margin:4px 0;font-size:26px}.page-head p{margin:0;color:var(--muted)}
-.pill{background:#fff;border:1px solid var(--line);border-radius:20px;padding:6px 14px;font-size:13px}.pill.on:before{content:"●";color:#2fb35c;margin-right:6px}
+.pill{background:#fff;border:1px solid var(--line);border-radius:20px;padding:6px 14px;font-size:13px}.pill.on:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:#2fb35c;margin-right:6px;vertical-align:middle}
 .cards{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:16px}.cards.four{grid-template-columns:repeat(4,1fr)}
 .card{background:var(--card);border-radius:12px;padding:14px 16px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
 .kpi span{display:block;color:var(--muted);font-size:13.5px}.kpi strong{display:block;font-size:28px;margin-top:6px;border-bottom:3px solid var(--orange);width:max-content;padding-bottom:4px}
@@ -60,3 +60,7 @@ blockquote{margin:8px 0;padding:10px;background:#f4f7fa;border-left:4px solid va
 .login{max-width:380px;margin:40px auto;display:flex;flex-direction:column;gap:12px}
 @media (max-width:1100px){.cards{grid-template-columns:repeat(2,1fr)}.grid3,.grid2{grid-template-columns:1fr}.sidebar{width:200px}}
 @media (max-width:700px){.app{flex-direction:column}.sidebar{width:100%}.cards,.cards.four{grid-template-columns:1fr}}
+
+/* ícones SVG */
+svg.i{display:inline-block;vertical-align:-3px;flex-shrink:0}.nav .ico{display:inline-flex;justify-content:center}.icon-btn{display:inline-flex;align-items:center}.checks li svg.i{color:#2fb35c}.checks.warn li svg.i,.alert svg.i,h3 svg.i{color:#e0a100}
+svg.i{pointer-events:none}

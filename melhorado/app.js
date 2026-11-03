@@ -42,12 +42,12 @@ function dialog(title, bodyHtml, actions) {
   });
   d.showModal();
 }
-function tip(texto) { return `<button class="info" aria-label="O que significa?" data-tip="${esc(texto)}">ⓘ</button>`; }
+function tip(texto) { return `<button class="info" aria-label="O que significa?" data-tip="${esc(texto)}">${icon('info',15)}</button>`; }
 function badge(p) { return `<span class="prio ${PRIO[p]}">${p}</span>`; }
 function estadoDecisao(id) {
   const d = state.decisoes[id];
   if (!d) return `<p class="estado pendente" role="status">Aguardando decisão da monitoria</p>`;
-  return `<p class="estado feito" role="status">✔ ${esc(d.acao)}${d.detalhe ? ' – ' + esc(d.detalhe) : ''}<br><small>Decidido por Maria Monitor (monitoria), hoje às ${fmtHora(d.quando)}. A IA apenas recomendou.</small></p>`;
+  return `<p class="estado feito" role="status">${icon('check',16)} ${esc(d.acao)}${d.detalhe ? ' – ' + esc(d.detalhe) : ''}<br><small>Decidido por Maria Monitor (monitoria), hoje às ${fmtHora(d.quando)}. A IA apenas recomendou.</small></p>`;
 }
 function registrar(id, acao, detalhe, aoDesfazer) {
   const anterior = state.decisoes[id];
@@ -67,7 +67,7 @@ function explicacao(id) {
     <p><b>Recomendação:</b> ${esc(a.recomendacao.texto)}</p>
     <p><b>Confiança da IA para este aluno:</b> ${a.confianca}% ${a.confianca < 50 ? '<span class="tag warn">baixa – valide os dados antes de agir</span>' : ''}</p>
     <p><b>Peso de cada fator na recomendação:</b></p><ul class="fatores">${barras}</ul>
-    ${a.inconsistencias.length ? `<p><b>Dados com problema:</b></p><ul>${a.inconsistencias.map(i => `<li>⚠ ${esc(i)}</li>`).join('')}</ul>` : ''}
+    ${a.inconsistencias.length ? `<p><b>Dados com problema:</b></p><ul>${a.inconsistencias.map(i => `<li>${icon('triangle-alert',16)} ${esc(i)}</li>`).join('')}</ul>` : ''}
     <p><b>O que a IA não sabe:</b> situações pessoais não registradas; a recomendação depende da qualidade dos dados cadastrais.</p>
     <p class="nota">Fontes: dados do AVA e do cadastro (sistema) · decisão: sempre da monitoria.</p>`,
     [{ label: 'Fechar', primary: true }]);
@@ -91,7 +91,7 @@ const views = {
           <h3>Estudantes priorizados pela IA <span class="tag">Análise gerada por IA</span></h3>
           <ul class="lista" role="listbox" aria-label="Estudantes priorizados">
             ${lista.map(a => `<li><button class="row ${a.id === sel.id ? 'sel' : ''}" data-sel="${a.id}" role="option" aria-selected="${a.id === sel.id}">
-              <span class="av" aria-hidden="true">👤</span><span class="who"><b>${esc(a.nome)}</b><small>Curso: ${esc(a.curso)}</small></span>
+              <span class="av" aria-hidden="true">${icon('user',20)}</span><span class="who"><b>${esc(a.nome)}</b><small>Curso: ${esc(a.curso)}</small></span>
               <span class="st ${a.statusTipo}">${esc(a.status)}</span>${badge(a.prioridade)}</button></li>`).join('')}
           </ul>
           <p class="conf">Confiança da IA para <b>${esc(sel.nome)}</b> ${tip('Probabilidade estimada pela IA de que a recomendação para o aluno selecionado está correta, com base nos dados disponíveis. Abaixo de 50%: valide os dados antes de agir.')}
@@ -99,9 +99,9 @@ const views = {
         </div>
         <div class="box">
           <h3>Por que a IA priorizou ${esc(sel.nome)}?</h3>
-          <ul class="checks">${sel.fatores.map(([f]) => `<li>✔ ${esc(f)}</li>`).join('')}</ul>
-          <p class="hint">🧠 ${esc(sel.recomendacao.texto)}</p>
-          <button class="link" data-perfil="${sel.id}">Abrir perfil completo de ${esc(sel.nome)} →</button>
+          <ul class="checks">${sel.fatores.map(([f]) => `<li>${icon('check',16)} ${esc(f)}</li>`).join('')}</ul>
+          <p class="hint">${icon('brain',16)} ${esc(sel.recomendacao.texto)}</p>
+          <button class="link" data-perfil="${sel.id}">Abrir perfil completo de ${esc(sel.nome)} ${icon('arrow-right',16)}</button>
         </div>
         <div class="box">
           <h3>Decisão da Monitoria</h3>
@@ -135,7 +135,7 @@ const views = {
       </form>
       <table class="tabela"><thead><tr><th>Aluno</th><th>Curso</th><th>Situação no AVA</th><th>Prioridade</th><th>Decisão</th><th></th></tr></thead>
       <tbody>${lista.map(a => `<tr><td><b>${esc(a.nome)}</b></td><td>${esc(a.curso)}</td><td class="st ${a.statusTipo}">${esc(a.status)}</td><td>${badge(a.prioridade)}</td>
-        <td>${state.decisoes[a.id] ? '✔ ' + esc(state.decisoes[a.id].acao) : 'Pendente'}</td><td><button class="btn small" data-perfil="${a.id}">Abrir perfil</button></td></tr>`).join('') || '<tr><td colspan="6">Nenhum aluno encontrado com esses filtros.</td></tr>'}</tbody></table>
+        <td>${state.decisoes[a.id] ? icon('check',16) + ' ' + esc(state.decisoes[a.id].acao) : 'Pendente'}</td><td><button class="btn small" data-perfil="${a.id}">Abrir perfil</button></td></tr>`).join('') || '<tr><td colspan="6">Nenhum aluno encontrado com esses filtros.</td></tr>'}</tbody></table>
     </section>`;
   },
 
@@ -150,9 +150,9 @@ const views = {
     <section class="panel"><div class="grid2">
       <div class="box"><h3>Central de Comunicação Assistida por IA</h3>
         <ul class="lista">${ALUNOS.filter(a => a.prioridade !== 'BAIXA').map(a => `<li><button class="row ${a.id === sel.id ? 'sel' : ''}" data-sel="${a.id}"><span class="who"><b>${esc(a.nome)}</b><small>${esc(a.curso)}</small></span><span class="st ${a.statusTipo}">${esc(a.status)}</span>${badge(a.prioridade)}</button></li>`).join('')}</ul>
-        <button class="link" data-view="alunos">Ver todos os alunos →</button></div>
+        <button class="link" data-view="alunos">Ver todos os alunos ${icon('arrow-right',16)}</button></div>
       <div class="box"><h3>Assistente de Mensagem IA – ${esc(sel.nome)}</h3>
-        ${bloqueado ? `<div class="alert">⚠ A IA não recomenda envio automático para ${esc(sel.nome)}: ${sel.inconsistencias.map(esc).join('; ')}. Atualize os dados no perfil antes de enviar.</div>` : ''}
+        ${bloqueado ? `<div class="alert">${icon('triangle-alert',16)} A IA não recomenda envio automático para ${esc(sel.nome)}: ${sel.inconsistencias.map(esc).join('; ')}. Atualize os dados no perfil antes de enviar.</div>` : ''}
         <label class="msg">Mensagem sugerida pela IA (editável)<textarea id="txtMsg" rows="4">${esc(sel.mensagem)}</textarea></label>
         <p><b>Canal recomendado:</b> ${esc(sel.recomendacao.canal)} · <b>Confiança da IA:</b> ${sel.confianca}%</p>
         ${estadoDecisao(sel.id)}
@@ -177,7 +177,7 @@ const views = {
         <p>Classificação: ${badge(a.prioridade)} · Confiança da IA: <b>${a.confianca}%</b></p>
         <ul class="fatores">${a.fatores.map(([f, p]) => `<li><span>${esc(f)}</span><span class="bar"><i style="width:${p * 2}%"></i></span><b>${p}%</b></li>`).join('')}</ul>
         <p class="nota">A IA analisa múltiplos fatores, mas o julgamento final sempre pertence à monitoria.</p></div>
-      <div class="box"><h3>O que a IA ainda não sabe</h3><ul class="checks warn"><li>⚠ Não interpreta situações pessoais não registradas</li><li>⚠ Pode precisar de atualização dos dados</li><li>⚠ Depende da qualidade das informações disponíveis</li></ul>
+      <div class="box"><h3>O que a IA ainda não sabe</h3><ul class="checks warn"><li>${icon('triangle-alert',16)} Não interpreta situações pessoais não registradas</li><li>${icon('triangle-alert',16)} Pode precisar de atualização dos dados</li><li>${icon('triangle-alert',16)} Depende da qualidade das informações disponíveis</li></ul>
         <p class="nota">Quando houver dúvida (confiança abaixo de 50%), a IA pede validação da monitoria.</p></div>
       <div class="box"><h3>Controle da Monitoria</h3>
         ${['Revisar recomendações antes das ações', 'Solicitar explicação detalhada', 'Validar novos aprendizados'].map((t, i) => `<label class="chk"><input type="checkbox" checked data-ctrl="${i}" /> ${t}</label>`).join('')}
@@ -193,7 +193,7 @@ const views = {
     <section class="panel"><div class="grid2">
       <div class="box"><h3>Efetividade dos canais ${tip('Taxa de resposta por canal nos ' + PERIODO + '.')}</h3>
         <ul class="fatores"><li><span>WhatsApp</span><span class="bar"><i style="width:78%"></i></span><b>78%</b></li><li><span>E-mail</span><span class="bar"><i style="width:42%"></i></span><b>42%</b></li><li><span>Contato manual</span><span class="bar"><i style="width:28%"></i></span><b>28%</b></li></ul></div>
-      <div class="box"><h3>Aprendizado da IA</h3><ul class="checks"><li>✔ WhatsApp apresentou maior taxa de resposta nesta turma</li><li>✔ Contatos nos primeiros dias aumentaram a ativação</li></ul>
+      <div class="box"><h3>Aprendizado da IA</h3><ul class="checks"><li>${icon('check',16)} WhatsApp apresentou maior taxa de resposta nesta turma</li><li>${icon('check',16)} Contatos nos primeiros dias aumentaram a ativação</li></ul>
         <p class="nota">As recomendações são atualizadas com base nos resultados, mas continuam sendo validadas pela monitoria.</p></div>
     </div>
     <div class="box"><h3>Histórico de decisões da monitoria (esta sessão)</h3>
@@ -221,14 +221,14 @@ function perfil(a) {
   const hist = (a.historico || []).map(h => `<li><b>${fmtData(h.d)} ${fmtHora(h.d)}</b> – ${esc(h.t)}</li>`).join('');
   const meus = state.historico.filter(h => h.aluno === a.id).map(h => `<li><b>${fmtData(h.quando)} ${fmtHora(h.quando)}</b> – ${esc(h.acao)} (Maria Monitor)</li>`).join('');
   return `
-  <div class="page-head"><div><button class="link" id="voltarLista">← Voltar à lista de alunos</button><h1>Perfil do Aluno – ${esc(a.nome)}</h1><p>Análise inteligente e acompanhamento do primeiro acesso.</p></div><span class="pill on">IA analisando dados do estudante</span></div>
+  <div class="page-head"><div><button class="link" id="voltarLista">${icon('arrow-left',16)} Voltar à lista de alunos</button><h1>Perfil do Aluno – ${esc(a.nome)}</h1><p>Análise inteligente e acompanhamento do primeiro acesso.</p></div><span class="pill on">IA analisando dados do estudante</span></div>
   <section class="panel"><div class="grid3">
     <div class="box"><h3>${esc(a.nome)}</h3><p>Curso: ${esc(a.curso)}</p>
       <p>Status AVA: <b class="st ${a.statusTipo}">${esc(a.status)}</b> ${badge(a.prioridade)}</p>
       <dl class="dados"><dt>Data de matrícula</dt><dd>${fmtData(a.matricula)}</dd><dt>Canal utilizado</dt><dd>${esc(a.canal)}</dd>
       <dt>Situação do e-mail</dt><dd class="${a.emailStatus === 'Não ativado' ? 'ruim' : ''}">${esc(a.emailStatus)}</dd><dt>Telefone</dt><dd class="${a.telefone !== 'Confirmado' ? 'ruim' : ''}">${esc(a.telefone)}</dd></dl></div>
     <div class="box ${a.inconsistencias.length ? 'atencao' : ''}">
-      ${a.inconsistencias.length ? `<h3>⚠ A IA encontrou uma inconsistência</h3><p>Não foi possível confirmar com segurança o melhor canal de comunicação.</p><ul>${a.inconsistencias.map(i => `<li>⚠ ${esc(i)}</li>`).join('')}</ul>` : `<h3>Recomendação da IA</h3><p>${esc(a.recomendacao.texto)}</p>`}
+      ${a.inconsistencias.length ? `<h3>${icon('triangle-alert',18)} A IA encontrou uma inconsistência</h3><p>Não foi possível confirmar com segurança o melhor canal de comunicação.</p><ul>${a.inconsistencias.map(i => `<li>${icon('triangle-alert',16)} ${esc(i)}</li>`).join('')}</ul>` : `<h3>Recomendação da IA</h3><p>${esc(a.recomendacao.texto)}</p>`}
       <p>Nível de confiança da IA: <span class="bar"><i style="width:${a.confianca}%"></i></span> <b>${a.confianca}%</b></p>
       ${a.confianca < 50 ? '<p class="nota">Confiança reduzida devido à ausência de dados suficientes. A IA está aguardando validação humana.</p>' : ''}
       <h4>Histórico da análise</h4><ol class="timeline">${hist}${meus}${!hist && !meus ? '<li>Sem eventos registrados.</li>' : ''}</ol></div>
@@ -248,8 +248,8 @@ function perfil(a) {
 function feedbackBar(chave, pergunta) {
   const f = state.feedback[chave];
   return `<div class="feedback"><span>${pergunta}</span>
-    <button class="btn small ${f === 'util' ? 'on' : ''}" data-fb="${chave}|util" aria-pressed="${f === 'util'}">👍 Sim</button>
-    <button class="btn small ${f === 'melhorar' ? 'on' : ''}" data-fb="${chave}|melhorar" aria-pressed="${f === 'melhorar'}">👎 Precisa melhorar</button>
+    <button class="btn small ${f === 'util' ? 'on' : ''}" data-fb="${chave}|util" aria-pressed="${f === 'util'}">${icon('thumbs-up',15)} Sim</button>
+    <button class="btn small ${f === 'melhorar' ? 'on' : ''}" data-fb="${chave}|melhorar" aria-pressed="${f === 'melhorar'}">${icon('thumbs-down',15)} Precisa melhorar</button>
     ${f ? '<span class="nota">Obrigado! Seu feedback foi registrado.</span>' : ''}</div>`;
 }
 
@@ -278,7 +278,7 @@ function mensagem(tipo) {
   const a = aluno(state.selecionado);
   if (tipo === 'enviar') {
     const txt = $('#txtMsg').value.trim();
-    const aviso = a.inconsistencias.length ? `<div class="alert">⚠ Atenção: ${a.inconsistencias.map(esc).join('; ')}. A mensagem pode não ser entregue.</div>` : '';
+    const aviso = a.inconsistencias.length ? `<div class="alert">${icon('triangle-alert',16)} Atenção: ${a.inconsistencias.map(esc).join('; ')}. A mensagem pode não ser entregue.</div>` : '';
     return dialog('Confirmar envio', `${aviso}<p>Enviar esta mensagem para <b>${esc(a.nome)}</b> por <b>${esc(a.canal)}</b>?</p><blockquote>${esc(txt)}</blockquote>`,
       [{ label: 'Voltar e revisar' }, { label: 'Confirmar envio', primary: true, onClick: () => registrar(a.id, 'Mensagem aprovada e enviada', a.canal) }]);
   }

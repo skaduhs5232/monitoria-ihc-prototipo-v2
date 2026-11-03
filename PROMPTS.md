@@ -15,8 +15,8 @@ O protótipo v2 foi construído por um agente de IA (Grok Bot), que escreveu o c
 - E1-05: "Peça confirmação antes de 'Aprovar e enviar mensagem' e ofereça 'Desfazer' logo após cada decisão."
 - E1-06: "Crie a lista de alunos com busca e filtros (prioridade, situação). O item Alunos do menu abre a lista; o aluno priorizado no Dashboard abre o seu perfil."
 - E1-07: "Use um único modelo de dados para todas as telas, para que o mesmo aluno tenha os mesmos dados (status, prioridade, confiança) em todas elas: João Pereira 42% e Maria Oliveira 'Aguardando primeiro acesso', ALTA, em todas as telas; 186 = 'alunos reativados após contato' em Comunicação e Relatórios."
-- E1-08/E1-09: "Diga a que se refere a confiança ('Confiança da IA para <aluno selecionado>') e dê, para cada indicador, um ⓘ funcional com a definição, a base e o período."
-- E1-01/E1-11: "Tudo o que parecer clicável deve responder (linhas da lista, filtros, feedback 👍/👎, notificações, checkboxes); menu com botões reais, sem hotspots sobre imagem."
+- E1-08/E1-09: "Diga a que se refere a confiança ('Confiança da IA para <aluno selecionado>') e dê, para cada indicador, um ícone de informação (i) funcional com a definição, a base e o período."
+- E1-01/E1-11: "Tudo o que parecer clicável deve responder (linhas da lista, filtros, feedback "útil / precisa melhorar", notificações, checkboxes); menu com botões reais, sem hotspots sobre imagem."
 - E1-12: "Inclua 'Sair' e uma tela de entrada simulada."
 - E1-13: "Use texto real (não imagem), botões com rótulos específicos, foco visível no teclado, contraste adequado e link 'Pular para o conteúdo'."
 - E1-14: "Calcule as datas a partir da data de hoje (não use datas fixas de junho/2026)."
@@ -30,3 +30,10 @@ O protótipo v2 foi construído por um agente de IA (Grok Bot), que escreveu o c
 
 ## P6 – Correção indispensável no Baseline (versão usada no teste, pasta `baseline-corrigido/`)
 "Siga o enunciado: preserve o Baseline e corrija só o impedimento que inviabiliza a T4. Copie o invólucro original (index.html, script.js, style.css e as mesmas imagens) e altere apenas as áreas clicáveis. Em Alunos, crie uma área e uma mensagem própria para cada um dos cinco botões da Decisão da Monitoria, nas coordenadas da imagem (E1-02). No Dashboard, faça 'Ver explicação completa' abrir um painel com a recomendação, os fatores e a confiança mostrados na própria tela (E1-16). Mostre os botões de ação do Dashboard só no Dashboard. Não altere imagens, textos nem os demais comportamentos."
+
+
+## Publicação e regra de ícones (02/11/2026)
+
+A versão v2 está em https://skaduhs5232.github.io/monitoria-ihc-prototipo-v2/melhorado/; a raiz do site é uma página inicial com links para o Baseline original (https://anapsaraujo100.github.io/monitoria-ihc-prototipo/), a v2 e o registro histórico `/baseline-corrigido/`.
+
+Instrução aplicada: "Nunca use emojis no protótipo nem na página inicial; use apenas ícones SVG inline (Lucide, copiados localmente em `melhorado/icons.js`)."
