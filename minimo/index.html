@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MonitorIA — Condição C (Mínimo)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="prototype-shell" aria-label="Protótipo navegável MonitorIA — condição C">
+    <section class="stage" id="stage">
+      <span class="badge" aria-hidden="true">Condição C · Mínimo</span>
+
+      <img
+        id="screenImage"
+        class="screen-image"
+        src="C_P1_dashboard.png"
+        alt="Dashboard do MonitorIA (C)"
+      />
+
+      <!-- MENU LATERAL — geometria do Baseline (invólucro constante) -->
+      <button class="hotspot nav-hotspot" style="--top:25.5%; --left:1.1%; --width:14.8%; --height:6.7%;" data-screen="dashboard" aria-label="Abrir Dashboard"></button>
+      <button class="hotspot nav-hotspot" style="--top:33.6%; --left:1.1%; --width:14.8%; --height:6.7%;" data-screen="alunos" aria-label="Abrir Alunos"></button>
+      <button class="hotspot nav-hotspot" style="--top:39.6%; --left:1.1%; --width:14.8%; --height:6.7%;" data-screen="comunicacao" aria-label="Abrir Comunicação"></button>
+      <button class="hotspot nav-hotspot" style="--top:47.6%; --left:1.1%; --width:14.8%; --height:6.7%;" data-screen="ia" aria-label="Abrir Inteligência Artificial"></button>
+      <button class="hotspot nav-hotspot" style="--top:53.5%; --left:1.1%; --width:14.8%; --height:6.7%;" data-screen="relatorios" aria-label="Abrir Relatórios"></button>
+      <button class="hotspot nav-hotspot" style="--top:60.5%; --left:1.1%; --width:14.8%; --height:6.7%;" data-screen="ajuda" aria-label="Abrir Ajuda"></button>
+
+      <button class="hotspot action-hotspot" data-only="dashboard" style="--top:51%; --left:75%; --width:20%; --height:4.5%;" data-action="Aceitar recomendação: ação registrada (simulada)." aria-label="Aceitar recomendação"></button>
+      <button class="hotspot action-hotspot" data-only="dashboard" style="--top:57%; --left:75%; --width:20%; --height:4.5%;" data-action="Ajustar estratégia: ação registrada (simulada)." aria-label="Ajustar estratégia"></button>
+      <button class="hotspot action-hotspot" data-only="dashboard" style="--top:63%; --left:75%; --width:20%; --height:4.5%;" data-action="Solicitar nova análise: ação registrada (simulada)." aria-label="Solicitar nova análise"></button>
+      <button class="hotspot action-hotspot" data-only="dashboard" style="--top:69%; --left:75%; --width:20%; --height:4.5%;" data-action="Ver explicação completa: ação registrada (simulada)." aria-label="Ver explicação completa"></button>
+
+      <button class="hotspot action-hotspot" data-only="alunos" style="--top:68.9%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Atualizar dados cadastrais: ação registrada (simulada)." aria-label="Atualizar dados cadastrais"></button>
+      <button class="hotspot action-hotspot" data-only="alunos" style="--top:72.6%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Alterar canal de comunicação: ação registrada (simulada)." aria-label="Alterar canal de comunicação"></button>
+      <button class="hotspot action-hotspot" data-only="alunos" style="--top:76.4%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Solicitar nova análise da IA: ação registrada (simulada)." aria-label="Solicitar nova análise da IA"></button>
+      <button class="hotspot action-hotspot" data-only="alunos" style="--top:80.0%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Rejeitar recomendação: ação registrada (simulada)." aria-label="Rejeitar recomendação"></button>
+      <button class="hotspot action-hotspot" data-only="alunos" style="--top:83.9%; --left:70.1%; --width:26.6%; --height:3%;" data-action="Registrar intervenção manual: ação registrada (simulada)." aria-label="Registrar intervenção manual"></button>
+
+      <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+  <script>window.MONITORIA_CONDITION = 'C';</script>
+  <script src="script.js"></script>
+</body>
+</html>
